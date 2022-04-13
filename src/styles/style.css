@@ -1,0 +1,11 @@
+.low-usage {
+  color: rgb(49, 155, 49);
+}
+
+.medium-usage {
+  color: rgba(230, 165, 25, 0.863);
+}
+
+.high-usage {
+  color: rgb(218, 31, 31);
+}

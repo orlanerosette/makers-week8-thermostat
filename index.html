@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thermostat</title>
+  <script src="./src/thermostat.js"></script>
+  <script src="./src/script.js"></script>
+  <link href='./src/styles/style.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+  <section>
+    <h1 id="current-temp"></h1>
+    <p>
+      <button id="increase-temp" onclick="increaseTemp()">+</button>
+      <button id="decrease-temp" onclick="decreaseTemp()">-</button>
+      <button id="reset-temp" onclick="resetTemp()">Reset</button>
+      Power Saving Mode is <span id="power-saving-status">ON</span>
+      <button id="power-saving-on" onclick="turnPSMOn()">Power Saving Mode ON</button>
+      <button id="power-saving-off" onclick="turnPSMOff()">Power Saving Mode OFF</button>
+    </p>
+  </section>
+
+
+
+</body>
+</html>
